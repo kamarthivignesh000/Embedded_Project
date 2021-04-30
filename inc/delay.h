@@ -1,16 +1,15 @@
-#ifndef __USER_UTILS_H__
-#define __USER_UTILS_H__
+#ifndef __DELAY_H__
+#define __DELAY_H__
 /**
- * @file user_utils.h
+ * @file delay.h
  * @author Vignesh (kamarthivignesh000.com)
- * @brief User defined utilities used across the project
+ * @brief Prototype of delay function
  * @version 0.1
- * @date 2021-04-28
+ * @date 2021-04-30
  * 
  * @copyright Copyright (c) 2021
  * 
  */
-
 #include "project_config.h"
 #include <util/delay.h>
 

@@ -1,4 +1,4 @@
-# Embedded C Programming Examples with Continuous Integration and Code Quality
+# Embedded C Project with Continuous Integration and Code Quality
 
 # Heater Control
 

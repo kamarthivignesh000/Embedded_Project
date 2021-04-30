@@ -1,7 +1,7 @@
 /**
  * @file activity_4.c
  * @author Vignesh (kamarthivignesh000@gmail.com)
- * @brief 
+ * @brief Defined activity_4
  * @version 0.1
  * @date 2021-04-29
  * 
@@ -11,8 +11,8 @@
 
 #include "project_config.h"
 
-#include "user_utils.h"
-#include "sample.h"
+#include "delay.h"
+#include "led.h"
 #include "activity_1.h"
 #include "activity_2.h"
 #include "activity_3.h"
@@ -40,5 +40,6 @@ void USARTInit(uint16_t ubrr_value)
  */
 void activity_4()
 {
+    /*Passing BAUDRATE */
     USARTInit(103);
 }

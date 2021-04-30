@@ -3,7 +3,7 @@
 /**
  * @file activity_4.h
  * @author Vignesh (kamarthivignesh000@gmail.com)
- * @brief 
+ * @brief function prototypes used across activity_4
  * @version 0.1
  * @date 2021-04-29
  * 

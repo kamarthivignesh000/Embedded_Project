@@ -1,7 +1,7 @@
 /**
  * @file activity_2.c
  * @author Vignesh (kamarthivignesh000@gmail.com)
- * @brief 
+ * @brief Defined Activity_2
  * @version 0.1
  * @date 2021-04-29
  * 
@@ -10,8 +10,8 @@
  */
 #include "project_config.h"
 
-#include "user_utils.h"
-#include "sample.h"
+#include "delay.h"
+#include "led.h"
 
 #include "activity_1.h"
 #include "activity_2.h"
@@ -53,6 +53,6 @@ uint16_t ReadADC(uint8_t ch)
 void activity_2()
 {
     InitADC();
-
+    /* Set PORTC */
 	DDRC|=(1<<PC0);
 }

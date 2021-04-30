@@ -1,15 +1,16 @@
-#ifndef __SAMPLE_H_
-#define __SAMPLE_H_
+#ifndef __LED_H_
+#define __LED_H_
 /**
- * @file sample.h
+ * @file led.h
  * @author Vignesh (kamarthivignesh000@gmail.com)
  * @brief configuring LED ports connected to controller
  * @version 0.1
- * @date 2021-04-28
+ * @date 2021-04-30
  * 
  * @copyright Copyright (c) 2021
  * 
  */
+
 #define LED_ON 	(0x01)			/**< LED state HIGH */
 #define LED_OFF	(0x00)			/**< LED state LOW */
 

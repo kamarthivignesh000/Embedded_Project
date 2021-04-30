@@ -11,8 +11,8 @@
 
 #include "project_config.h"
 
-#include "user_utils.h"
-#include "sample.h"
+#include "delay.h"
+#include "led.h"
 
 #include "activity_1.h"
 #include "activity_2.h"

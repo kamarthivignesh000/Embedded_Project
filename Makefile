@@ -4,7 +4,7 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = main.c\
-src/user_utils.c\
+src/delay.c\
 src/activity_1.c\
 src/activity_2.c\
 src/activity_3.c\
