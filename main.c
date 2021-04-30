@@ -45,53 +45,53 @@ int main(void)
                 Output_Compare_Register_1_A = temp;
                 if(temp<=200)
                 {
-                    unsigned char data1[]="20 degree C\n";
+                    unsigned char str1[]="20 degree Celsius\n";
                     int i=0;
                     /* Transmitting data to controller */
-                    while(data1[i])
+                    while(str1[i])
                     {
                          /* USART Control and Status Register  and USART I/O Data Register */
                         while(!(UCSR0A&(1<<UDRE0)));
-                        UDR0 = data1[i];
+                        UDR0 = str1[i];
                         i++;
                     }
                 }
                 else if(temp>=210 && temp<=500)
                 {
-                    unsigned char data2[]="25 degree C\n";
+                    unsigned char str2[]="25 degree Celsius\n";
                     int i=0;
                     /* Transmitting data to controller */
-                    while(data2[i])
+                    while(str2[i])
                     {
                         /* USART Control and Status Register  and USART I/O Data Register */
                         while(!(UCSR0A&(1<<UDRE0)));
-                        UDR0 = data2[i];
+                        UDR0 = str2[i];
                         i++;
                     }
                 }
                 else if(temp>=510 && temp<=700)
                 {
-                    unsigned char data3[]="29 degree C\n";
+                    unsigned char str3[]="29 degree Celsius\n";
                     int i=0;
                     /* Transmitting data to controller */
-                    while(data3[i])
+                    while(str3[i])
                     {
                         /* USART Control and Status Register  and USART I/O Data Register */
                         while(!(UCSR0A&(1<<UDRE0)));
-                        UDR0 = data3[i];
+                        UDR0 = str3[i];
                         i++;
                     }
                 }
                 else if(temp>=710 && temp<=1024)
                 {
-                    unsigned char data4[]="33 degree C\n";
+                    unsigned char str4[]="33 degree Celsius\n";
                     int i=0;
                     /* Transmitting data to controller */
-                    while(data4[i])
+                    while(str4[i])
                     {
                         /* USART Control and Status Register  and USART I/O Data Register */
                         while(!(UCSR0A&(1<<UDRE0)));
-                        UDR0 = data4[i];
+                        UDR0 = str4[i];
                         i++;
                     }
                 }
